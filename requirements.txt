@@ -1,0 +1,12 @@
+easydict
+tqdm
+PyYAML
+pandas
+loguru
+scikit-learn
+kneed
+xgboost
+lightgbm
+mlflow
+
+# -e .
