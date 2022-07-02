@@ -1,0 +1,48 @@
+DataSource: 
+  path: "D:/PYthon_project/data"
+  train: train.csv.zip
+  test: test.csv.zip
+
+DataStore:
+  data: Data
+  raw: raw
+  preprocess: preprocess
+  train: train.csv
+  test: test.csv
+  final: final 
+  train: train.csv
+  valid: valid.csv
+  test: test.csv
+
+# if any common parameter present then value of the all the parameters should be same if not mlflow get an error
+
+params:
+  test_size: 0.2
+  random_state: 37
+  cluster_range: 6
+  LGBMRegressor: 
+    task: train
+    boosting_type: gbdt
+    objective: regression
+    learning_rate: 0.2
+    feature_fraction: 0.9
+    bagging_fraction: 0.7
+    bagging_freq: 10
+    verbose: 0
+    max_depth: 8
+    num_leaves: 128  
+    max_bin: 512
+    num_iterations: 100
+  
+  GradientBoostingRegressor:
+    n_estimators: 10
+    max_leaf_nodes: 20
+    learning_rate: 0.2
+    max_depth: 4
+
+  XGBRegressor:
+    n_estimators: 10
+    max_depth: 7
+    learning_rate: 0.2
+    booster: gblinear
+    base_score: 0.25
