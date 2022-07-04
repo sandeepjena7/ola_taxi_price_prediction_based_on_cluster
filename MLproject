@@ -1,0 +1,32 @@
+name: New-York-City-Taxi-Trip
+
+conda_env: conda.yml
+
+entry_points:
+    main:
+        command: "python src/main.py"
+
+    get_data:
+        parameters:
+            config: {type: str, default: config/config.yml}
+        command: "python src/stage_01_download_data.py --cfg={config}"
+
+    clean_data:
+        parameters:
+            config: {type: str, default: config/config.yml}
+        command: "python src/stage_02_cleanup_data.py --cfg={config}"
+    
+    remove_null:
+        parameters:
+            config: {type: str, default: config/config.yml}
+        command: "python src/stage_03_remove_null_value.py --cfg={config}"
+    
+    split_data:
+        parameters:
+            config: {type: str, default: config/config.yml}
+        command: "python src/stage_04_train_test_split.py --cfg={config}"
+    
+    train:
+        parameters:
+            config: {type: str, default: config/config.yml}
+        command: "python src/stage_05_train.py --cfg={config}"
