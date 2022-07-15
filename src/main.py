@@ -1,7 +1,10 @@
 from loguru import logger 
 import mlflow
-# logger.add("logs/src.log", backtrace=True, diagnose=True,rotation="50 MB",retention="100 days")  # onec complete then uncommet this thing
-
+import logging
+import warnings
+warnings.simplefilter("ignore")
+logger.add("logs/src.log", backtrace=True, diagnose=True,rotation="50 MB",retention="100 days")  # onec complete then uncommet this thing
+logger.info(">>>."*100)
 
 @logger.catch
 def main():
