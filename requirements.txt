@@ -10,5 +10,5 @@ lightgbm
 mlflow
 PyYAML
 pytest
-
+mkdocs-material
 # -e .
