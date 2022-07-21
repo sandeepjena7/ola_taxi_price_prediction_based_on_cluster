@@ -11,4 +11,6 @@ mlflow
 PyYAML
 pytest
 mkdocs-material
+tox
+streamlit
 # -e .
