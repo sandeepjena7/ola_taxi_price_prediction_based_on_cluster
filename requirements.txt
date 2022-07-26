@@ -13,4 +13,6 @@ pytest
 mkdocs-material
 tox
 streamlit
+fastapi
+uvicorn[standard]
 # -e .
