@@ -8,7 +8,7 @@ import mlflow
 import mlflow.sklearn
 from collections import OrderedDict
 
-from src.utils.allutils import EXP , GetConfig,RunBuilder,save_json
+from src.utils.allutils import EXP , GetConfig,RunBuilder
 from src.utils.metrics import metrics
 from src.utils.mlflowlogmodel import dump_model_mlflow
 import argparse
