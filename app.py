@@ -50,9 +50,19 @@ def not_valid(request:Request,exc:InputNotValid):
 
 @app.post("/predict",response_model=Dict[str,float])
 def predict(data:Input):
-    value = data
+    value = {
+        "driver_tip": data.driver_tip,
+    "distance": data.distance,
+    "num_passengers": data.num_passengers,
+    "trip_duration": data.trip_duration,
+    "payment_method": data.payment_method,
+    "rate_code": data.rate_code,
+    "extra_charges": data.extra_charges,
+    "toll_amount": data.toll_amount
+            }
+    print(value)
     result = manager(value,load_model())
-    return {"prediction":result}
+    return {"prediction":round(result,2)}
 
 
 
