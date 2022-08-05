@@ -1,0 +1,1 @@
+{"driver_tip":{"min":0.0,"max":400.0},"distance":{"min":0.0,"max":113.8},"num_passengers":{"min":0.0,"max":9.0},"toll_amount":{"min":0.0,"max":905.76},"payment_method":{"min":1.0,"max":4.0},"rate_code":{"min":1.0,"max":99.0},"extra_charges":{"min":0.0,"max":6.5},"trip_duration":{"min":0.0,"max":86379.0}}

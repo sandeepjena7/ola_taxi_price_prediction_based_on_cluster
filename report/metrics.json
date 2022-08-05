@@ -1,0 +1,107 @@
+[
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mae_0": 0.4844817675015634,
+        "1": "LGBMRegressor",
+        "mae_1": 2.5674928401370933
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "XGBRegressor",
+        "r2_0": 0.6729107083588801,
+        "1": "XGBRegressor",
+        "r2_1": 0.8858887443971457
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "XGBRegressor",
+        "r2_0": 0.6729107083588801,
+        "1": "XGBRegressor",
+        "r2_1": 0.8858887443971457
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "1ca769832e17464b92e80ab902cd6630",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    },
+    {
+        "mlflow_id": "c171fbb545ff49be8dacfc534fdae962",
+        "0": "LGBMRegressor",
+        "mse_0": 69.75039645502773,
+        "1": "LGBMRegressor",
+        "mse_1": 20.01762038636424
+    }
+]
